@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255,255,255), rgb(109, 39, 239));
+}
+
+.container{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 60vh;
+    width: 52vw;
+    background-color: blueviolet;
+    border: 2px solid black;
+    overflow-y: auto;
+    margin-bottom: 8px;
+    outline: none;
+}
+
+.message{
+    background-color: wheat;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.send{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rebeccapurple; */
+}
+
+#messageInput{
+    width: 45vw;
+    border: 2px solid black;
+    padding-left: 10px;
+    outline: none;
+    height: 4.5vh;
+    border-radius: 5px;
+    background-color: rgb(243, 215, 168);
+}
+
+#messageButton{
+    width: 4vw;
+    height: 4vh;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(248, 245, 241);
+}
+
+#messageButton:hover{
+    background-color: rgb(174, 115, 174);
+    color: white;
+}
+
+.foot{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

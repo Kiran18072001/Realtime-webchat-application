@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat-Realtime chat application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script> <!-- To connect the client.js with the
+         backend node server -->
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/phone.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="img/chat.png" alt="">
+    </nav>
+    <h1 style="text-align: center;">Welcome to the iChat Realtime Chat Application</h1>
+
+    <h3 style="text-align: center;">Connect with anyone to discuss any open ideas</h3>
+    <div class="container">
+        <!-- <div class="message right"></div>
+        <div class="message left"></div> -->
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-cont">
+            <input type="text" name="messageInput" id="messageInput" placeholder="Message">
+            <button id="messageButton">Send</button>
+        </form>
+    </div>
+
+    <footer class="foot">
+        Built using Socket.io
+        <div>
+            CopyRight &copy; Kiran Kumar
+        </div>
+    </footer>
+</body>
+</html>
